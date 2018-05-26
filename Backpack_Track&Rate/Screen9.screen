@@ -1,0 +1,104 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="20917a5b-9991-4c4c-892a-b286027bebda">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="311b3353-ef16-4bdc-89d7-f73ca88f0da9">
+            <Content.Layers>
+                <Layer Id="9b57f326-3424-4c62-9859-79dff9615fd4" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="3f5b8fae-ed7f-4a82-b298-5c10404cfdec" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="3de936fb-2ba4-4c2e-91c3-83187f345d14" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="93ec4fc8-72f2-42de-91cf-b78931c450d1" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/23/2018 12:38:20" Id="bda6536b-e846-4f92-9b1b-c8981b8970bf">
+            <Scene.KeyFrames>
+                <KeyFrame Id="23953807-019c-4b90-b71a-7eded89602e1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Image SourcePath="assets/green-gradient-yellow-linear-1920x1080-c2-ffffe0-006400-a-285-f-14.png" Id="3d773fa7-4716-4f3d-8649-0bcde1d4f073" Panel.Bounds="0,0,412{5,2147483647},1507{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Title RichText="Settings" Foreground="#FFFFFFFF" FontSize="36" FontFamily="Roboto" Id="c16ea5ca-6b3b-4e06-b024-cb2daf77e1f6" Panel.Bounds="135,24,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Back" Id="fe6b035a-6208-4088-bd0b-0ceb899a81a4" Panel.Bounds="15,15,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Screen2.screen" Created="05/23/2018 12:55:48" Id="0ea32cc3-a6b3-406c-8bb0-2f39eecb1191">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="linea-lock" Id="16795928-b975-46e1-851d-d3273b2f26e7" Panel.Bounds="56,205,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="iOS 7 Contacts" Id="c9ceedf4-7dd6-44dd-9545-e33812a159ec" Panel.Bounds="56,136,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="linea-bell" Id="4cc5e27a-e8e7-4661-a614-c8c0617f1cff" Panel.Bounds="56,274,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="linea-smartphone" Id="da97022c-31e6-45f8-9d72-99184047f54e" Panel.Bounds="56,343,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="iOS 7 Most Viewed" Id="09d1869a-eab5-492f-b46a-0d7299909c23" Panel.Bounds="56,412,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Label RichText="Profile" Foreground="#FFFFFF1C" FontSize="14" FontFamily="Roboto" Id="baf1d44b-cfa6-489a-a491-719dc2a5ee63" Panel.Bounds="126,143,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Label RichText="General" Foreground="#FFFFFF55" FontSize="14" FontFamily="Roboto" Id="668e0662-1ffa-4ce5-b4ad-e05d2b92e1ec" Panel.Bounds="126,415,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Label RichText="Background" Foreground="#FFFFFF55" FontSize="14" FontFamily="Roboto" Id="7389e64b-9526-479c-b134-7825c72a6a78" Panel.Bounds="126,347,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Label RichText="Notifications" Foreground="#FFFFFF55" FontSize="14" FontFamily="Roboto" Id="53045e7c-b1bd-4add-8df4-8fe7349b0cae" Panel.Bounds="126,279,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9b57f326-3424-4c62-9859-79dff9615fd4">
+                            <Add.Item>
+                                <Label RichText="Privacy" Foreground="#FFFFFF55" FontSize="14" FontFamily="Roboto" Id="47f4cf26-555f-478d-8ce2-33889cac92be" Panel.Bounds="126,211,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

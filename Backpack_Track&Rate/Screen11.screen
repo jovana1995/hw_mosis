@@ -1,0 +1,81 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                 Id="ba01f809-bfb4-4308-adf5-708f219e51e7" d:Design.ShowOpeningAnimation="True">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="14eb16f2-1a0e-4eda-8566-11b12d6dd8a8">
+            <Content.Layers>
+                <Layer Id="0778c7fa-b6ea-4a35-b7e1-7c8b69ef45f3" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="62d28aa4-a838-453f-9c47-b883fe71194c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="24214054-589b-4028-96de-0463104b6364" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="6967e934-d5fd-4000-9379-39bae278eeab" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/25/2018 11:46:09" Id="524d835f-b9d0-44ef-a883-baf3959e1c1f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="36117a7a-fd14-4ce8-80e6-e00da9a9973c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0778c7fa-b6ea-4a35-b7e1-7c8b69ef45f3">
+                            <Add.Item>
+                                <Image SourcePath="assets/green-gradient-yellow-linear-1920x1080-c2-ffffe0-006400-a-285-f-14.png" Id="00d7a2a6-bb34-4d6b-b85e-36e707569073" Panel.Bounds="0,0,412{5,2147483647},892{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0778c7fa-b6ea-4a35-b7e1-7c8b69ef45f3">
+                            <Add.Item>
+                                <Image SourcePath="assets/Hiking_Backpack braon.png" Id="5d870059-17e6-4d2f-9168-588041c07bca" Panel.Bounds="29,250,127{5,2147483647},146{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0778c7fa-b6ea-4a35-b7e1-7c8b69ef45f3">
+                            <Add.Item>
+                                <Label RichText="Backpack" Foreground="#FF8AB1D3" FontSize="42" FontFamily="Roboto" Id="bc3a8a82-ef39-4df8-ab0c-d63ce57b0942" Panel.Bounds="162,250,208{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0778c7fa-b6ea-4a35-b7e1-7c8b69ef45f3">
+                            <Add.Item>
+                                <Label RichText="Track&amp;amp;Rate" Align="Center" Foreground="#FFFFFF55" FontSize="20" FontFamily="Roboto" FontStyle="Italic" Id="b6253314-9af8-4134-a06f-955fcdf26535" Panel.Bounds="255,294,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Content.SceneApplied" Target="14eb16f2-1a0e-4eda-8566-11b12d6dd8a8">
+                            <Add.Item>
+                                <ConditionalCommand Id="4f1b6cc7-e550-46a8-a5c7-29de4bd271d8">
+                                    <ConditionalCommand.Command>
+                                        <CommandNavigate Screen="/Screen.screen" Created="05/25/2018 15:14:07" Id="bda77200-de6f-4cbd-bea4-b469bc990a53">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ConditionalCommand.Command>
+                                    <ConditionalCommand.Condition>
+                                        <SceneCondition Scene="524d835f-b9d0-44ef-a883-baf3959e1c1f" />
+                                    </ConditionalCommand.Condition>
+                                </ConditionalCommand>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="1750" Id="f8c8712d-16a5-4b70-964b-820c235e15f8">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="00d7a2a6-bb34-4d6b-b85e-36e707569073" Target="0778c7fa-b6ea-4a35-b7e1-7c8b69ef45f3" Duration="1750">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="9cd14d80-2c2a-40df-a8af-ad7dc9230c4f" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="0,0" At="9cd14d80-2c2a-40df-a8af-ad7dc9230c4f" Target="00d7a2a6-bb34-4d6b-b85e-36e707569073" />
+                        <Move To="29,250" At="9cd14d80-2c2a-40df-a8af-ad7dc9230c4f" Target="5d870059-17e6-4d2f-9168-588041c07bca" />
+                        <Move To="162,250" At="9cd14d80-2c2a-40df-a8af-ad7dc9230c4f" Target="bc3a8a82-ef39-4df8-ab0c-d63ce57b0942" />
+                        <Move To="255,294" At="9cd14d80-2c2a-40df-a8af-ad7dc9230c4f" Target="b6253314-9af8-4134-a06f-955fcdf26535" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

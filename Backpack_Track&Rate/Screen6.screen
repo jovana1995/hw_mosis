@@ -1,0 +1,90 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="f5cc5922-2ce0-462c-99a3-1bb03ffc64d2">
+    <Page.Content>
+        <Content Width="412" Height="1200" Id="af394c91-f8c0-4006-9d81-f2437d40d278">
+            <Content.Layers>
+                <Layer Id="fd20f254-6e39-43c6-af92-c7218e911284" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="bd1138e2-fb8d-46d2-814b-6d614705aa2b" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="85be7c59-acfd-4d88-948b-67d65b3cb8d3" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1aa4a06e-fea1-428a-8ba0-eab44d4a7090" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/19/2018 15:53:33" Id="bbf8a841-383c-424a-a59a-2f81c2599fbf">
+            <Scene.KeyFrames>
+                <KeyFrame Id="64562b20-ef8e-44fa-9020-0ec8a1f25dfe">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Image SourcePath="assets/green-gradient-yellow-linear-1920x1080-c2-ffffe0-006400-a-285-f-14.png" Id="37ca1ed8-c6cd-4b74-8f91-3515e204fcac" Panel.Bounds="0,0,412{5,2147483647},1561{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="773aa02c-329f-4f87-afe4-9aee8b05d0ce" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e9263285-7901-476b-a4ff-69b9de47e810" Panel.Bounds="136,10,0*,0*">
+                                    <Group.Children>
+                                        <Title RichText="Gallery" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="5b68520c-c343-4c05-af19-6fefa1e2ceef" Panel.Bounds="6,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="SEA Thai Restaurant" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="773aa02c-329f-4f87-afe4-9aee8b05d0ce" Panel.Bounds="0,41,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Sevilla, Spain" Foreground="#FFFFFFFF" FontSize="10" FontFamily="Open Sans" Id="411c379f-488e-4e4e-b989-c81b728bfaad" Panel.Bounds="30,55,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Back" Id="c1b1f798-b05e-414a-8b75-691f3676a394" Panel.Bounds="15,15,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/Screen5.screen" Created="05/23/2018 13:19:12" Id="aa75da99-0b77-40dc-8bd3-c0dd0dbf276f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Rectangle Color="#FFFFFFFF" Background="#00FFFFFF" Id="8e747432-e984-495f-9382-8f93a461e11f" Panel.Bounds="15,118,383{5,2147483647},1047{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Image SourcePath="assets/IMG_2102.JPG" Id="94016c5c-5753-48fb-8051-2c08cc9aec5e" Panel.Bounds="35,393,342{5,2147483647},236{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Image SourcePath="assets/PastedImage.jpg" Id="9e0b6671-8257-4061-8839-620d4ba3d9f0" Panel.Bounds="35,629,342{5,2147483647},256{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Image SourcePath="assets/Cuisine1.jpg" Id="ff97fa67-4957-4488-bb84-a7d461572fca" Panel.Bounds="35,885,342{5,2147483647},256{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Image SourcePath="assets/SEA-02.jpg" Id="8eaef42b-3935-4ff1-956d-1be224f0a65b" Panel.Bounds="35,141,342{5,2147483647},253{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="fd20f254-6e39-43c6-af92-c7218e911284">
+                            <Add.Item>
+                                <Label RichText="(4)" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="78cfbf5d-f429-4080-aa3e-6addf9a27fce" Panel.Bounds="382,22,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

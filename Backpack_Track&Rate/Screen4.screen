@@ -1,0 +1,200 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="e820e8ac-2e05-41eb-b12f-b7ced7dacc20">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="fe3efb88-a3c8-4aa7-895b-d8466fdcfb3f">
+            <Content.Layers>
+                <Layer Id="2d2c88c7-0742-4082-ae64-5d16743493fa" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="4d05c4af-ab00-40f7-ac86-4f17ac1b1657" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="fe30a0f0-4a4d-4bb7-9fc3-f1b2b71bf15b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="6d38c089-38d1-49a5-8e3a-6b24fa5f8208" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/19/2018 10:55:02" Id="1087e826-43ff-4435-a29f-9796f1dcdbf1">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3736ac32-9dfc-40e9-af7e-5b677bb2f93e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Image SourcePath="assets/green-gradient-yellow-linear-1920x1080-c2-ffffe0-006400-a-285-f-14.png" Id="cddaa161-4c72-4b6c-910e-956a2f5cf6cb" Panel.Bounds="0,0,412{5,2147483647},750{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Title RichText="New post" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="c6630ba7-3b0f-41fb-96ff-d52f1537dfaf" Panel.Bounds="131,16,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Back" Id="533941d8-e521-48f7-b6c6-c153b0d95a45" Panel.Bounds="15,15,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="05/19/2018 11:48:51" Id="d61bef42-2672-49bc-be4e-474837c7c5df" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="d3ece696-8c8f-471b-a8d7-bbd17650177e" Panel.Bounds="23,112,366{5,2147483647},145{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Button Text="Attach photos" Background="#FFAE0000" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="ef7fbc2c-066e-4964-8611-7072e1204c23" Panel.Bounds="63,403,125{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="8b25e9d3-e49e-4093-92d4-aef20d6b6b07" Created="05/19/2018 12:21:47" Id="329cf876-a508-472a-a380-ece9b848f40d" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Button Text="Add" Background="#FFFFFF1C" FontFamily="Open Sans" Id="7f4bc461-0f98-4730-8e85-963c40aaef09" Panel.Bounds="217,403,125{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Screen3.screen" Created="05/19/2018 12:27:42" Id="8b275a92-82c6-4722-ae96-5534b5073b11">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Button Text="Add location" FontFamily="Open Sans" Id="5082a880-33de-44e7-bb54-4aac547b9302" Panel.Bounds="23,281,150{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <ComboBox Id="b2558b32-2daf-46b7-b04e-63a555b71db4" Panel.Bounds="23,326,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="New place" Id="f1c3ca56-c59a-400f-a1cb-16f696b13d8b" />
+                                        <Item Text="New event" Id="fe853551-6cdd-4253-849c-7626198d6391">
+                                            <Item.Selected>
+                                                <CommandSwitchTo SceneId="71397297-1c79-4f27-bfbe-8e8a15223bc5" AutoRevertEvent="Item.Unselected" Created="05/21/2018 12:22:09" Id="31ed3a10-4fa5-4a3a-9297-b4758c629956" />
+                                            </Item.Selected>
+                                        </Item>
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Label RichText="Write a comment/description: " Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="c04e9abd-38b6-432f-863b-676f9a366070" Panel.Bounds="23,88,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="1087e826-43ff-4435-a29f-9796f1dcdbf1" ParentScene="1087e826-43ff-4435-a29f-9796f1dcdbf1" Created="05/19/2018 12:10:56" Id="34072e18-627a-4290-b12e-f988349a959a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="75cc7d76-9b08-45c0-b4ad-b4024f47c607">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Image SourcePath="assets/easter islands.jpg" Id="cf65e586-06ab-48a9-b92f-9daac7be6859" Panel.Bounds="23,471,366{5,2147483647},200{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Attach photos" StateGroup="1087e826-43ff-4435-a29f-9796f1dcdbf1" ParentScene="1087e826-43ff-4435-a29f-9796f1dcdbf1" Created="05/19/2018 12:21:47" Id="8b25e9d3-e49e-4093-92d4-aef20d6b6b07">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2cd2c704-7a46-447d-9e26-92d2552591f7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Image SourcePath="assets/yzg9e.png" Id="c1746d82-b5cc-45e5-b1dd-fd06e3759375" Panel.Bounds="52,173,300{5,2147483647},185{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Rectangle Opacity="0" Id="fd4894fe-cf07-49b1-9a66-e5a020c0172d" Panel.Bounds="116,235,172{5,2147483647},43{5,2147483647}">
+                                    <Rectangle.Click>
+                                        <CommandSwitchTo SceneId="7a067cba-fc37-4b1f-b07c-e59a8b7fbc51" Created="05/19/2018 12:25:12" Id="e3d4cdb9-3fc8-4a25-97f8-265bcb3c64c6" />
+                                    </Rectangle.Click>
+                                </Rectangle>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="8b25e9d3-e49e-4093-92d4-aef20d6b6b07" ParentScene="8b25e9d3-e49e-4093-92d4-aef20d6b6b07" Created="05/19/2018 12:23:43" Id="b29f5c27-0103-4bef-8a8b-a7ad12f77f9b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f9dddf2b-8b1e-4f56-80f0-fba11ae19289">
+                    <KeyFrame.Operations>
+                        <Remove Target="c1746d82-b5cc-45e5-b1dd-fd06e3759375" />
+                        <Remove Target="533941d8-e521-48f7-b6c6-c153b0d95a45" />
+                        <Remove Target="cddaa161-4c72-4b6c-910e-956a2f5cf6cb" />
+                        <Remove Target="d3ece696-8c8f-471b-a8d7-bbd17650177e" />
+                        <Remove Target="5082a880-33de-44e7-bb54-4aac547b9302" />
+                        <Remove Target="b2558b32-2daf-46b7-b04e-63a555b71db4" />
+                        <Remove Target="ef7fbc2c-066e-4964-8611-7072e1204c23" />
+                        <Remove Target="7f4bc461-0f98-4730-8e85-963c40aaef09" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Rectangle" StateGroup="8b25e9d3-e49e-4093-92d4-aef20d6b6b07" ParentScene="8b25e9d3-e49e-4093-92d4-aef20d6b6b07" Created="05/19/2018 12:25:12" Id="7a067cba-fc37-4b1f-b07c-e59a8b7fbc51">
+            <Scene.KeyFrames>
+                <KeyFrame Id="98f2cccc-a626-430d-97c5-526c73e8626a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Image SourcePath="assets/easter islands.jpg" Id="dc8f7b4a-7773-416f-88e4-d25bbc658d17" Panel.Bounds="23,471,366{5,2147483647},200{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="c1746d82-b5cc-45e5-b1dd-fd06e3759375" />
+                        <Remove Target="329cf876-a508-472a-a380-ece9b848f40d" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected New event" ParentScene="1087e826-43ff-4435-a29f-9796f1dcdbf1" Created="05/21/2018 12:22:09" Id="71397297-1c79-4f27-bfbe-8e8a15223bc5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3f1ad27f-a369-47a8-b992-d2124ad7059b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="linea-geolocalize-01" Id="62c677c3-c9b7-41b8-b1f1-0c5da248b4c6" Panel.Bounds="225,281,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="iOS 7 Clock" Id="36910a93-3fad-41ef-bbb2-7ccbe3aabd6c" Panel.Bounds="225,323,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <TextBox Text="Where?" FontFamily="Open Sans" Id="a6e76724-576b-4088-89c6-c7cbd8c6ea28" Panel.Bounds="265,285,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2d2c88c7-0742-4082-ae64-5d16743493fa">
+                            <Add.Item>
+                                <TextBox Text="When?" FontFamily="Open Sans" Id="249b4dca-a617-4204-9ccf-74f257c06dd6" Panel.Bounds="265,327,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Item.Selected" Target="f1c3ca56-c59a-400f-a1cb-16f696b13d8b">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="1087e826-43ff-4435-a29f-9796f1dcdbf1" AutoRevertEvent="Item.Unselected" Created="05/21/2018 12:24:31" Id="e879f3ee-2a85-45c8-a6ee-458cf78fe63e" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
